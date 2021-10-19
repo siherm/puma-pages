@@ -19,17 +19,18 @@ Nur Angehörige der Universität Stuttgart können PUMA verwenden.
 
 ### 2. Nutzer und Personen
 
-Als Nutzer können Sie dann 
+Der Nutzer wird als @Nutzersname dargestellt. Nutzer können Literatur und Links sammeln.
+Personen hingegen sind wissenschafltiche Angehörige der Universität Stuttgart. Autoren können zu Publikationen assoziiert werden.
 
 * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
 * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
 
-### 3. Install Bundler
+### 3. Gruppen
 
-In case you haven't installed Bundler, install it:
+Es können beliebig viele Gruppen angelegt werden. Derjenige, der die Gruppe anlegt ist Administrator der Gruppe. Andere Nutzer können vom Administrator eingeladen werden oder sie können ein Beitritt anfragen, der Gruppenadmin muss dies dann bestätigen.
 
 ```
-gem install bundler
+[Gruppen](https://puma.ub.uni-stuttgart.de/groups)
 ```
 
 You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
